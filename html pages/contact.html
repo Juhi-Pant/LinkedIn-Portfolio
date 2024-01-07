@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="/css/styleHome.css"/>
+    <link rel="stylesheet" href="/css/styleProjects.css"/>
+    <link rel="stylesheet" href="/css/styleSkills.css"/>
+    <link rel="stylesheet" href="/css/styleContact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Juhi Pant | Contact Me</title>
+</head>
+<body>
+     <!--Navigation Bar-->
+     <div class="nav">
+        <div class="navbar">
+          <!--First Half of Nav Bar-->
+          <div class="left-nav">
+          <div class="jp-logo">
+              <img src="/favicon/android-chrome-192x192.png" alt="" class="jp-logo">
+          </div>
+  
+          <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search">
+          </div>
+          </div>
+   
+          <!--Second Half of Nav Bar-->
+          <div class="right-nav">
+          <div class="icon">
+              <div><i class="fa fa-solid fa-house home-icon" style="color: #666a70;" onclick="toHome()"></i></div>
+              <div>Home</div>
+          </div>
+  
+          <div class="icon">
+              <div><i class="fa-solid fa-code projects-icon" style="color: #666a70;" onclick="toProjects()"></i></div>
+              <div>Projects</div>
+          </div>
+  
+          <div class="icon">
+              <div><i class="fa-solid fa-gear skills-icon" style="color: #666a70;" onclick="toSkills()"></i></div>
+              <div>Skills</div>
+          </div>
+  
+          <div class="icon">
+              <div><i class="fa-solid fa-briefcase cont-icon" style="color: #666a70;"></i></div>
+              <div>Experience</div>
+          </div>
+  
+          <div class="icon">
+              <div><i class="fa-solid fa-message contact-icon" style="color: #666a70;" onclick="toContact()"></i></div>
+              <div>Contact Me</div>
+          </div>
+  
+          <div class="icon">
+              <div><img src="/images/4e6be686-ad77-4211-9269-85828cd74a24WhatsApp Image 2024-01-06 at 13.11.39_d7097eaf.PNG" alt="" class="jp-img"></div>
+              <div style="position: relative; bottom: 4px;">Me <i class="fa-solid fa-caret-down" style="color: #666a70;" class="dropbtn" id="myDropdown"  onclick="showMenu()"></i></div>
+              <div class="menu">
+                  <div class="menu-content">
+                      <div class="menudiv1">
+                          <div>
+                              <img src="/images/WhatsApp Image 2024-01-06 at 13.11.39_d7097eaf.jpg" alt="">
+                              <div>Juhi Pant</div>
+                          </div>
+                      </div>
+  
+                      <div>
+                          <hr>
+                      </div>
+  
+                      <div class="menudiv2">
+                          <div><h3>My Socials</h3></div>
+                          <div><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></div>
+                          <div><a href=""><i class="fa-brands fa-github"></i>Github</a></div>
+                          <div><a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a></div>
+                          <div><a href=""><i class="fa-solid fa-envelope"></i>Gmail</a></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          </div>
+  
+        </div>
+  
+      </div>
+
+    <!--First Container-->
+    
+    <div class="post">
+        <div class="post-1">
+        <img src="/images/4e6be686-ad77-4211-9269-85828cd74a24WhatsApp Image 2024-01-06 at 13.11.39_d7097eaf.PNG" alt="">
+        <div class="projects">
+            <div>Contact Me</div>
+        </div>
+        </div>
+        <div class="post-2">
+            <div class="mediaicons">
+                <div><i class="fa-regular fa-image" style="color: #679df9;"></i> Media</div>
+                <div><i class="fa-regular fa-calendar-days" style="color: #e57b24;"></i> Event</div>
+                <div><i class="fa-regular fa-newspaper" style="color: #c32828;"></i> Write Article</div>
+            </div>
+        </div>
+    </div>
+
+    <hr class="hr-1">
+
+    <div class="cont">
+        <h2>Get In Touch</h2>
+        <hr>
+        <div class="contact-cont">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact">
+                <input type="hidden" name="access_key" value="c79144fb-ef2b-4df7-ac50-f501186b55a8">
+                <label for="name">Name</label>
+                <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
+                <label for="message">Write your Message</label>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Send Message</button>
+
+            </form>
+        </div>
+
+        <div class="help">Need Help?</div>
+
+    </div>
+    <script src="/js/home.js"></script>
+</body>
+</html>

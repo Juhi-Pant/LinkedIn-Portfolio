@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav {
+    height: 7vh;
+    width: 100%;
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+.left-nav {
+    height: 60px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 185px;
+    margin-top: 5px;
+}
+.right-nav {
+    height: 60px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 450px;
+    margin-top: 5px;
+}
+.icon > div > i {
+    cursor: pointer;
+    font-size: 20px;
+}
+.icon > div:hover {
+    color:black;
+}
+.icon > div {
+    cursor: pointer;
+    text-align: center;
+    color: #666a70;
+}
+.icon > div > i:hover {
+    color: black;
+}
+.jp-img {
+    height: 20px;
+    width: 20px;
+    border-radius: 15px;
+    margin-bottom: 0px;
+}
+.jp-logo{
+    height: 35px;
+    width: 35px;
+}
+
+.search-box{
+	display: flex;
+	align-items: center;
+    width: 250px;
+    height: 40px;
+    position: relative;
+    border-radius: 15px;
+}
+.search-box > i {
+    position: absolute;
+	font-size: 15px;
+	color: black;
+    left: 10px;
+    z-index: 1;
+}
+.search-box > input{
+    
+	flex: 1;
+	height: 34px;
+	border: none;
+	outline: none;
+	font-size: 14px;
+	padding-left: 40px;
+    background-color: #DEE6F2;
+    color: black;
+    border-radius: 5px;
+}
+.search-box > input::placeholder {
+    color: black;
+}
+.menudiv1 > div > img {
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+}
+.menu {
+    height: 400px;
+    width: 250px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 10;
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+}
+
+.menudiv1 > div {
+    display: flex;
+    padding: 10px;
+}
+.menudiv1 > div > div {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.menudiv2 > div > h3 {
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.menudiv2 > div {
+    text-align: left;
+}
+.menudiv2 > div > a {
+    text-decoration: none;
+    color: #1560bd;
+}
+.menudiv2 > div > a > i {
+    font-size: 30px;
+    margin: 20px;
+}
+.show 
+{display:block;}
+
+.home-page{
+    background-color: #ededed;
+    height: 200vh;
+}
+.container-1 {
+    height: 400px;
+    width: 75%;
+    margin: 0 auto;
+    background-color: white;
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    border-color: #666a70;
+}
+.box-1{
+    height: 200px;
+    width: 100%;
+    background-color: #1560bd;
+    display: inline-flex;
+    justify-content: end;
+}
+.box-1 > h1 {
+    margin: auto 30px;
+    color: white;
+}
+.box-1 > h1 > span {
+    color: #D1D0CE;
+}
+.box-2 > img {
+    height: 200px;
+    position: absolute;
+    bottom: 150px;
+    margin-left: 30px;
+}
+.name{
+    margin-top: 53px;
+    margin-left: 30px;
+    display: inline-flex;
+    font-weight: bold;
+}
+.name > h3 {
+    margin: auto;
+    padding-left: 5px;
+    color: #A9A9A9;
+    font-weight: lighter;
+}
+.box-2 > h4 {
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #A9A9A9;
+    font-weight: lighter;
+}
+.open-work {
+    height: 40px;
+    width: 140px;
+    border-radius: 30px;
+    background-color: #1560bd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 30px;
+}
+.open-work > div {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+}
+.container-2 {
+    height: 400px;
+    background-color: white;
+    width: 75%;
+    margin: 30px auto;
+    border-radius: 10px;
+    border-color: #666a70;
+}
+.container-2 > h2 {
+    font-weight: 600;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.container-2 > div {
+    font-size: 18px;
+    margin: 10px 30px;
+    font-weight: lighter;
+}
+.hire {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container-3 {
+    height: 400px;
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    position: relative;
+    bottom: 20px;
+    border-radius: 10px;
+    border-color: #666a70;
+}
+.container-3 > h2 {
+    font-weight: 600;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+.card-wrapper {
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    justify-content: space-between;
+}
+.card {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+}
+.image > img {
+    height: 100px;
+    width: 100px;
+}
+

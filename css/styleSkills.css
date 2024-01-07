@@ -1,0 +1,222 @@
+.cont-1 {
+    height: max-content;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    background-color: white;
+}
+.heading {
+    display: flex;
+    margin: 7px 14px;
+    justify-content: center;
+}
+.heading > h2 {
+    margin-top: 6px;
+    margin-left: 6px;
+}
+.hr-2 {
+    width: 95%;
+    margin: auto;
+}
+.prog {
+    margin: 7px 14px;
+}
+.prog > h3 {
+    color: #515151;
+}
+.skills-area {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20%;
+}
+.skill {
+    position: relative;
+}
+.skill-title {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.skill-bar {
+    width: 100%;
+    background-color: #A9A9A9;
+    height: 30px;
+    z-index: -1;
+    border-radius: 100px;
+}
+.skill-fill {
+    background-color: #1560bd;
+    height: 30px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 30px;
+    overflow: hidden;
+    position: relative;
+    bottom: 30px;
+}
+.skill-percent {
+    font-size: 20px;
+}
+.c {
+    animation: c 2s;
+    width: 90%;
+}
+.cpp {
+    animation: cpp 2s;
+    width: 90%;
+}
+.js {
+    animation: js 2s;
+    width: 75%;
+}
+.html {
+    animation: html 2s;
+    width: 90%;
+}
+.css {
+    animation: css 2s;
+    width: 90%;
+}
+.tw {
+    animation: tw 2s;
+    width: 85%;
+}
+.bs {
+    animation: bs 2s;
+    width: 85%;
+}
+.react {
+    animation: react 2s;
+    width: 80%;
+}
+.node {
+    animation: node 2s;
+    width: 60%;
+}
+.exp {
+    animation: exp 2s;
+    width: 60%;
+}
+.api {
+    animation: api 2s;
+    width: 70%;
+}
+.socket {
+    animation: socket 2s;
+    width: 55%;
+}
+.git {
+    animation: git 2s;
+    width: 85%;
+}
+@keyframes c {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes cpp {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes js {
+    from {
+        width: 0;
+    }
+    to {
+        width: 75%;
+    }
+}
+@keyframes html {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes css {
+    from {
+        width: 0;
+    }
+    to {
+        width: 90%;
+    }
+}
+@keyframes tw {
+    from {
+        width: 0;
+    }
+    to {
+        width: 85%;
+    }
+}
+@keyframes bs {
+    from {
+        width: 0;
+    }
+    to {
+        width: 85%;
+    }
+}
+@keyframes react {
+    from {
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+@keyframes node {
+    from {
+        width: 0;
+    }
+    to {
+        width: 60%;
+    }
+}
+@keyframes exp {
+    from {
+        width: 0;
+    }
+    to {
+        width: 60%;
+    }
+}
+@keyframes api {
+    from {
+        width: 0;
+    }
+    to {
+        width: 70%;
+    }
+}
+@keyframes socket {
+    from {
+        width: 0;
+    }
+    to {
+        width: 55%;
+    }
+}
+@keyframes git {
+    from {
+        width: 0;
+    }
+    to {
+        width: 85%;
+    }
+}
+@media only screen and (max-width: 750px) {
+    .skills-area {
+        padding: 0 5%;
+    }
+}

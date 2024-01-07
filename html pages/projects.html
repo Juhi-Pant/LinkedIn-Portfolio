@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/styleHome.css"/>
+    <link rel="stylesheet" href="/css/styleProjects.css"/>
+    <title>Juhi Pant | Projects</title>
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div class="nav">
+        <div class="navbar">
+          <!--First Half of Nav Bar-->
+          <div class="left-nav">
+          <div class="jp-logo">
+              <img src="/favicon/android-chrome-192x192.png" alt="" class="jp-logo">
+          </div>
+  
+          <div class="search-box">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" placeholder="Search">
+          </div>
+          </div>
+   
+          <!--Second Half of Nav Bar-->
+          <div class="right-nav">
+          <div class="icon">
+              <div><i class="fa fa-solid fa-house home-icon" style="color: #666a70;" onclick="toHome()"></i></div>
+              <div>Home</div>
+          </div>
+  
+          <div class="icon">
+              <div><i class="fa-solid fa-code projects-icon" style="color: #666a70;" onclick="toProjects()"></i></div>
+              <div>Projects</div>
+          </div>
+  
+          <div class="icon">
+              <div><i class="fa-solid fa-gear skills-icon" style="color: #666a70;" onclick="toSkills()"></i></div>
+              <div>Skills</div>
+          </div>
+  
+          <div class="icon">
+              <div><i class="fa-solid fa-briefcase exp-icon" style="color: #666a70;" onclick="toHome()"></i></div>
+              <div>Experience</div>
+          </div>
+  
+          <div class="icon">
+              <div><i class="fa-solid fa-message contact-icon" style="color: #666a70;" onclick="toContact()"></i></div>
+              <div>Contact Me</div>
+          </div>
+  
+          <div class="icon">
+              <div><img src="/images/4e6be686-ad77-4211-9269-85828cd74a24WhatsApp Image 2024-01-06 at 13.11.39_d7097eaf.PNG" alt="" class="jp-img"></div>
+              <div style="position: relative; bottom: 4px;">Me <i class="fa-solid fa-caret-down" style="color: #666a70;" class="dropbtn" id="myDropdown"  onclick="showMenu()"></i></div>
+              <div class="menu">
+                  <div class="menu-content">
+                      <div class="menudiv1">
+                          <div>
+                              <img src="/images/WhatsApp Image 2024-01-06 at 13.11.39_d7097eaf.jpg" alt="">
+                              <div>Juhi Pant</div>
+                          </div>
+                      </div>
+  
+                      <div>
+                          <hr>
+                      </div>
+  
+                      <div class="menudiv2">
+                          <div><h3>My Socials</h3></div>
+                          <div><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></div>
+                          <div><a href=""><i class="fa-brands fa-github"></i>Github</a></div>
+                          <div><a href=""><i class="fa-brands fa-linkedin"></i>LinkedIn</a></div>
+                          <div><a href=""><i class="fa-solid fa-envelope"></i>Gmail</a></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          </div>
+  
+        </div>
+  
+    </div>
+
+    <!--First Container-->
+    
+    <div class="post">
+        <div class="post-1">
+        <img src="/images/4e6be686-ad77-4211-9269-85828cd74a24WhatsApp Image 2024-01-06 at 13.11.39_d7097eaf.PNG" alt="">
+        <div class="projects">
+            <div>Projects</div>
+        </div>
+        </div>
+        <div class="post-2">
+            <div class="mediaicons">
+                <div><i class="fa-regular fa-image" style="color: #679df9;"></i> Media</div>
+                <div><i class="fa-regular fa-calendar-days" style="color: #e57b24;"></i> Event</div>
+                <div><i class="fa-regular fa-newspaper" style="color: #c32828;"></i> Write Article</div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Project -1 -->
+    <hr class="hr-1">
+    <div class="project-1">
+        <div class="like-1">99 people liked this</div>
+        <hr class="belowlike-1">
+        <div class="projectname">ImgFind <span>(Intermediate)</span></div>
+        <div class="descrpt">An image searching website that uses a keyword to provide images</div>
+        <div class="details">
+            <ul>
+                <li>This website uses an external <strong>API</strong> (Unsplash) for rendering images using a search word given by the user.</li>
+                <li>The UI is inspired by Google Theme</li>
+                <li>The website lists 10 images at once for a given keyword.</li>
+            </ul>
+            <div class="techstack"><strong>Tech Stack Used:</strong>
+                 <div>Tailwind CSS, JavaScript, React.js, API</div>
+            </div>
+        </div>
+        <div class="link">Project Link <a href="">- ImgFind</a></div>
+        <div class="prjct-img">
+            <img src="/images/ImgFind1.png" class="img1" alt="">
+            <img src="/images/ImgFind2.png"  class="img2" alt="">
+        </div>
+        <hr class="belowimg">
+        <div class="postlast">
+            <div><i class="fa-regular fa-thumbs-up" style="color: #666a70;"></i> Like</div>
+            <div><i class="fa-regular fa-comment" style="color: #666a70;"></i> Comment</div>
+            <div><i class="fa-solid fa-paper-plane" style="color: #666a70;"></i> Send</div>
+        </div>
+    </div>
+
+    <!--Project-2-->
+    <div class="project-1">
+        <div class="like-1">40 people liked this</div>
+        <hr class="belowlike-1">
+        <div class="projectname">LetsCall <span>(Advanced)</span></div>
+        <div class="descrpt">A Video calling website for multiple users</div>
+        <div class="details">
+            <ul>
+                <li>In this website the users who enter the same room ID can share their audio and video streams with each other.</li>
+                <li>It is a Google Meet Clone.</li>
+                <li>The website also offer features like mic off and camera off.</li>
+            </ul>
+            <div class="techstack"><strong>Tech Stack Used:</strong>
+                 <div>HTML, Tailwind CSS, JavaScript, Node.js, Express.js, Socket.io, WebRTC, Peer.js</div>
+            </div>
+        </div>
+        <div class="link">(The project is still under process.)</div>
+        <div class="prjct-img">
+            <img src="/images/LetsCall1.png" class="img1" alt="">
+            <img src="/images/LetsCall2.png"  class="img2" alt="">
+        </div>
+        <hr class="belowimg">
+        <div class="postlast">
+            <div><i class="fa-regular fa-thumbs-up" style="color: #666a70;"></i> Like</div>
+            <div><i class="fa-regular fa-comment" style="color: #666a70;"></i> Comment</div>
+            <div><i class="fa-solid fa-paper-plane" style="color: #666a70;"></i> Send</div>
+        </div>
+    </div>
+    
+    <!--Project-3-->
+    <div class="project-1">
+        <div class="like-1">Your connection commented on this</div>
+        <hr class="belowlike-1">
+        <div class="projectname">Bibliophile <span>(Intermediate)</span></div>
+        <div class="descrpt">A Book Keeping website</div>
+        <div class="details">
+            <ul>
+                <li>This website saves information about books and also gives a random picture to the book card rendered from an external API.</li>
+                <li>It has features like edit, delete and create.</li>
+                <li>The website uses JSON to store data.</li>
+            </ul>
+            <div class="techstack"><strong>Tech Stack Used:</strong>
+                 <div>Tailwind CSS, JavaScript, React.js, API, JSON</div>
+            </div>
+        </div>
+        <div class="link">Project Link <a href="">- Bibliophile</a></div>
+        <div class="prjct-img">
+            <img src="/images/book1.png" class="img1" alt="">
+            <img src="/images/book2.png"  class="img2" alt="">
+        </div>
+        <hr class="belowimg">
+        <div class="postlast">
+            <div><i class="fa-regular fa-thumbs-up" style="color: #666a70;"></i> Like</div>
+            <div><i class="fa-regular fa-comment" style="color: #666a70;"></i> Comment</div>
+            <div><i class="fa-solid fa-paper-plane" style="color: #666a70;"></i> Send</div>
+        </div>
+    </div>
+    <script src="/js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.post {
+    height: 100px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    background-color: white;
+}
+.post-1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.post-1 > img {
+    height: 40px;
+    margin-top: 12px;
+    margin-left: 4pxpx;
+}
+.projects{
+    width: 500px;
+    border-radius: 25px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #ededed;
+    display: flex;
+    margin-top: 10px;
+    margin-right: 4px;
+}
+.projects > div {
+    margin: auto 20px;
+}
+.mediaicons {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+.hr-1 {
+    width: 40%;
+    margin: auto;
+}
+.project-1 {
+    height: 510px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 10px auto;
+    background-color: white;
+}
+.like-1 {
+    font-size: 15px;
+    margin: 7px 14px;
+}
+.belowlike-1 {
+    width: 95%;
+    margin: auto;
+}
+.projectname {
+    font-size: 25px;
+    margin: 7px 14px;
+}
+.projectname > span {
+    font-size: 20px;
+    margin-left: 5px;
+    font-weight: lighter;
+    color: gray;
+}
+.descrpt {
+    font-size: 20px;
+    margin: 7px 14px;
+    font-weight: 200;
+}
+.prjct-img {
+    display: flex;
+}
+.img1 {
+    height: 200px;
+    width: 50%;
+}
+.img2 {
+    height: 200px;
+    width: 50%;
+}
+.details > ul {
+    list-style: none;
+}
+.details > ul > li {
+    font-size: 15px;
+    margin: 7px 14px;
+}
+.techstack {
+    margin: 7px 14px;
+}
+.techstack > div {
+    font-size: 15px;
+    font-weight: 600;
+}
+.belowimg {
+    width: 95%;
+    margin: 7px auto;
+}
+.link {
+    margin: 7px 14px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.link > a {
+    color: #1560bd;
+}
+.postlast {
+    display: flex;
+    justify-content: space-evenly;
+}
