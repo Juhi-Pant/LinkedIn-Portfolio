@@ -37,19 +37,19 @@ var contactIcon = document.querySelector(".contact-icon");
 var Resume = document.querySelector(".open-work");
 
 function toHome(){
-    location.href = "./index.html"
+    location.href = "/index.html"
 }
 
 function toProjects(){
-    location.href = "./projects.html"
+    location.href = "/html pages/projects.html"
 }
 
 function toSkills(){
-    location.href = "./skills.html"
+    location.href = "/html pages/skills.html"
 }
 
 function toContact(){
-    location.href = "./contact.html"
+    location.href = "/html pages/contact.html"
 }
 
 function toResume(){
