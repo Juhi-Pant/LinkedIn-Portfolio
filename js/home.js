@@ -41,15 +41,15 @@ function toHome(){
 }
 
 function toProjects(){
-    location.href = "/html pages/projects.html"
+    location.href = "./html pages/projects.html"
 }
 
 function toSkills(){
-    location.href = "/html pages/skills.html"
+    location.href = "./html pages/skills.html"
 }
 
 function toContact(){
-    location.href = "/html pages/contact.html"
+    location.href = "./html pages/contact.html"
 }
 
 function toResume(){
